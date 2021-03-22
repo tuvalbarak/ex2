@@ -1,0 +1,283 @@
+
+* { margin:0; padding:0; }
+
+header, main, footer, nav, section {
+    display: block;
+}
+
+header, nav, footer {
+    background-color: #ED4C5C;   
+}
+
+#logo {
+    width: 24.5px;
+    height: 17.4px;
+    margin-left: 51.45px;
+    margin-top: 60.8px;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+header {
+    width: 1440px;
+    height: 657px;
+}
+
+#my_name {
+    width: 152px;
+    height: 22px;
+    font-size: 18px;
+}
+
+#nav_text {
+    margin-left: 49px;
+    margin-top: 48px;
+    height: 22px;
+    font-size: 14px;
+   
+}
+
+#nav_text a:hover {
+    color: gray;
+}
+
+#my_name, #nav_text a {
+    color: white;
+    padding: 10px;
+}
+
+#personal_photo {
+    margin-top: 45px;
+    margin-left: 89px;
+    border-radius: 15px;
+}
+
+header button {
+    margin-top: 45px;
+    margin-left: 50px;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    size: 14px;
+    color: #ED4C5C;
+    border:none;
+}
+
+.top_main h3 {
+    font-size: 36px;
+    margin-top: 56px;
+    margin-left: 50px;
+}
+
+.about_myself {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.top_main h6 {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #ED4C5C;
+}
+
+#motivation1 {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+#motivation2 {
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 40px;
+}
+
+#motivation3 {
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 40px;
+}
+
+.motivation {
+    width: 350px;
+    height: 248.86px;
+    border-radius: 8px;
+}
+
+.motivation img {
+    width: 350px;
+    height: 248.86px;
+    border-radius: 8px;
+}
+
+.motivation a {
+    position: absolute;
+    height: 27px;
+    margin-left: 111px;
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #ED4C5C;
+}
+
+#motivation2 a {
+    margin-left: 140px;
+}
+
+#motivation3 a {
+    margin-left: 80px;
+}
+
+#rec_motivation1, #rec_motivation2, #rec_motivation3 {
+    position: absolute;
+    width: 352px;
+    margin-left: -1px;
+    height: 40px;
+    margin-top: -40px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.bottom_main {
+    
+    height: 657px;
+    width: 1440px;
+    background-color: #F5F4F4;
+    margin-top: 352px;
+}
+
+.bottom_main h1 {
+    font-size: 36px;
+    margin-left: 50px;
+    padding-top: 63px;
+}
+
+.my_skills {
+    position: absolute;
+    width: 1110px;
+    height: 226px;
+    margin-top: 56px;
+}
+
+.skill_card {
+    width: 255px;
+    height: 226px;  
+    background-color: white;
+    justify-content: center;
+    display: flex;
+
+}
+
+.skill_card img {
+    position: absolute;
+    width: 80px;
+    margin-top: 65px;
+    background: #FFFFFF;
+}
+
+.skill_card h2 {
+    position: absolute;
+    margin-top: 139px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+
+.skill_card p {
+    position: absolute;
+    width: 191px;
+    height: 51px;
+    margin-top: 171px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #000000;
+}
+
+#skill_card1 {
+    position: absolute;
+    margin-left: 50px;
+}
+
+#skill_card2 {
+    position: absolute;
+    margin-left: 335px;
+}
+
+#skill_card2 img {
+    margin-top: 55px;
+    width: 70px;
+    height: 70px;
+}
+
+#skill_card3 {
+    position: absolute;
+    margin-left: 620px;
+}
+
+#skill_card3 img {
+    width: 120px;
+    margin-top: 60px;
+}
+
+#skill_card4 {
+    position: absolute;
+    margin-left: 905px;
+}
+
+#skill_card4 img {
+    margin-top: 55px;
+    width: 70px;
+    height: 70px;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    margin-top: 553px;
+}
+
+footer h2 {
+    position: absolute;
+    margin-left: 264px;
+    margin-top: 29px;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+ 
+.socialLinks a {
+    position: absolute;
+    margin-top: 29px;
+    fill: white;
+}
+
+#icon1 {
+    margin-left: 53px;
+}
+
+#icon2 {
+    margin-left: 95px;
+    margin-top: 25px;
+}
+
+#icon3 {
+    margin-left: 145px;
+}
